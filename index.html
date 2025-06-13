@@ -6,35 +6,24 @@
     <title>Carnicería - Menú Digital</title>
     <style>
         body {
-            background-color: #ffffff; /* fondo blanco */
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
         }
-
-        .menu-container {
-            max-width: 800px; /* le pones un ancho máximo lógico para que no se estire en pantallas grandes */
-            width: 100%;
-            padding: 20px;
-        }
-
-        .menu-container img {
-            max-height: 90vh;
-            max-width: 95%;
+        .menu-image {
+            max-width: 100%;
             height: auto;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-            border-radius: 12px;
             display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
         }
     </style>
 </head>
 <body>
-    <div class="menu-container">
-        <img src="Menú.png" alt="Menú Carnicería">
-    </div>
+
+    <img src="Menú.png" alt="Menú Carnicería" class="menu-image" />
 
     <!-- CHATBOT -->
     <script type="text/javascript">
